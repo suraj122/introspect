@@ -1,0 +1,316 @@
+/* CSS Resets */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* MY CSS */
+html {
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+strong {
+  font-weight: 700;
+}
+
+/* General CSS */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.btn {
+  padding: 12px 28px;
+  background: transparent;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.btn-primary {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-secondary {
+  color: crimson;
+  border: 2px solid crimson;
+}
+.padding {
+  padding: 100px 0;
+}
+.main-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  color: #272727;
+}
+.secondary-heading {
+  font-size: 24px;
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+/* Main Header */
+.header {
+  background: #272727;
+  height: 70px;
+  line-height: 70px;
+  overflow: hidden;
+}
+.logo {
+  color: crimson;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+}
+.link {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 48px;
+}
+
+/* Hero Section */
+.hero {
+  background: url("../media/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+.hero-text {
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Sction 2 */
+.heading {
+  font-size: 28px;
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* Article List */
+.article-list {
+  background: #f1f0f0;
+}
+
+.col {
+  float: left;
+  width: 50%;
+}
+.col1 {
+  padding-right: 80px;
+}
+.col2 {
+  padding-left: 80px;
+}
+.article-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Service section */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-child {
+  width: 25%;
+}
+.service-icon {
+  font-size: 44px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  background: crimson;
+}
+.footer .heading {
+  color: #fff;
+}
+.block {
+  display: block;
+  width: 100%;
+}
+.form-indicator {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.form-input {
+  padding: 12px 20px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  outline: 0;
+}
+.form-auth {
+  display: block;
+  width: 48%;
+}
+.textarea {
+  margin-top: 36px;
+}
+.copyright {
+  color: rgb(209, 209, 209);
+  margin-top: 40px;
+  display: inline-block;
+}
